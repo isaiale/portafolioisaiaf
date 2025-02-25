@@ -4,8 +4,8 @@ import SocialIcon from "./SocialIcon";
 const Footer = () => {
   // Datos de habilidades y redes sociales
   const socialLinks = [
-    { platform: "facebook", user: "khaled.vegas.7" },
-    { platform: "whatsapp", user: "3320468328" },
+    /* { platform: "facebook", user: "khaled.vegas.7" },
+    { platform: "whatsapp", user: "3320468328" }, */
     { platform: "linkedin", user: "isai-alejandro-flores" },
   ];
 
@@ -37,10 +37,10 @@ const Footer = () => {
                 isaialef20@gmail.com
               </a>
             </div>
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <i className="fas fa-phone mr-2"></i>
               <p>332 046 8328</p>
-            </div>
+            </div> */}
           </div>
         </div>
 

@@ -52,8 +52,8 @@ const HeroSection = () => {
           </p>
 
           {/* Botones */}
-          <div className="flex flex-wrap justify-center md:justify-start gap-4">
-            <Button text="Ver proyectos" variant="purple" />
+          <div className="flex flex-wrap justify-center md:justify-start gap-4">            
+            <Button text="Ver proyectos" variant="purple" onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })} />
             <Button
               text="Descargar CV"
               iconClass="fa-solid fa-download"
@@ -66,11 +66,11 @@ const HeroSection = () => {
 
       {/* Íconos sociales */}
       <div className="flex justify-center gap-6 mt-5">
-        <SocialIcon platform="facebook" user="khaled.vegas.7" />
+        {/* <SocialIcon platform="facebook" user="khaled.vegas.7" /> */}
         {/* <SocialIcon platform="instagram" user="isaialef" /> */}
-        <SocialIcon platform="whatsapp" user="3320468328" />
+        {/* <SocialIcon platform="whatsapp" user="3320468328" /> */}
         {/* <a href="https://wa.me/######?text=¡Estoy+interesado!">Contáctame por WhatsApp</a> */}
-        <SocialIcon platform="github" user="isaiale" />
+        {/* <SocialIcon platform="github" user="isaiale" /> */}
         <SocialIcon platform="linkedin" user="isai-alejandro-flores" />
       </div>
     </div>
